@@ -2,9 +2,13 @@
 Spok_Pager is a python library that takes advantage of the spok paging api to send messages to spok pagers.
 
 # Synopsis
-Pager.py [pager number] [pager message]
+The library can be used from shell/cmd or imported as a library.
 
-# Import Pager Class
+## Use from command line
+
+`python3 Pager.py [pager number] [pager message]`
+
+## Import Pager as a library
 If pager.py is imported, the pager class can be used.
 
 ### init
